@@ -10,27 +10,27 @@ The FisherKing Series focuses on practical, reusable workflow implementations wi
 
 | Model / Workflow | Description |
 |---|---|
-| **ImageFactory** | Model-agnostic text-to-image productivity workflow |
-| **Krea2** | Text-to-image and identity-edit reference workflows |
-| **Flux.2 Klein 9B** | Text-to-image and character utility workflows |
-| **ZiT** | Text-to-image and guided image-to-image reference workflows |
-| **Anima** | Text-to-image and image-edit reference workflows |
-| **Ideogram 4** | Image-generation reference workflow |
-| **NoobAI** | Text-to-image reference workflow |
+| [**ImageFactory**](workflows/image-generation/imagefactory/) | Model-agnostic text-to-image productivity workflow |
+| [**Krea2**](workflows/image-generation/krea2/) | Text-to-image and identity-edit reference workflows |
+| [**Flux.2 Klein 9B**](workflows/image-generation/flux2_klein_9B/) | Text-to-image and character utility workflows |
+| [**ZiT**](workflows/image-generation/zit/) | Text-to-image and guided image-to-image reference workflows |
+| [**Anima**](workflows/image-generation/anima/) | Text-to-image and image-edit reference workflows |
+| [**Ideogram 4**](workflows/image-generation/ideogram4/) | Ideogram 4 reference workflow |
+| [**NoobAI**](workflows/image-generation/noobai/) | NoobAI text-to-image reference workflow |
 
 ### Image Manipulation
 
-| Tool / Model | Description |
+| Workflow | Description |
 |---|---|
-| **BiRefNet** | Background-removal workflow |
-| **CodeFormer** | Face-restoration workflow |
+| [**BiRefNet**](workflows/image-manipulation/birefnet/) | Background-removal utility workflow |
+| [**CodeFormer**](workflows/image-manipulation/codeformer/) | Face-restoration utility workflow |
 
 ### Video Generation
 
 | Model | Description |
 |---|---|
-| **LTX 2.3** | Local video-generation reference workflows |
-| **WAN 2.2** | Image-to-video and video-generation reference workflows |
+| [**LTX 2.3**](workflows/video-generation/ltxv23/) | Local video-generation reference workflows |
+| [**WAN 2.2**](workflows/video-generation/wan22/) | Image-to-video and video-generation reference workflows |
 
 ## Repository Structure
 
